@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../../styles.css';
 // Components
 import Grid from '@material-ui/core/Grid';
 import Certificates from '../containers/components/Certificates';
@@ -11,6 +11,7 @@ import PersonalInfo from '../containers/components/PersonalInfo';
 import Resume from '../containers/components/Resume';
 import Skills from '../containers/components/Skills';
 // Context
+import '../../styles.css';
 import useData from '../functions/useData';
 import AppContext from '../utils/context';
 

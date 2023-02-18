@@ -13,7 +13,7 @@ import AppContext from "../../../utils/context";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: "auto",
   },
   media: {
     height: 140,
@@ -30,10 +30,10 @@ function Intersts() {
         <h1 className="experience_title">OTHER INTERESTS</h1>
       </Grid>
       <Grid item xs={12}>
-        <Grid container spacing={3}>
+        <Grid container spacing={3} alignItems="center">
           {state.data?.interests.map((interest) => {
             return (
-              <Grid item xs={12} lg={3}>
+              <Grid item xs={12} sm={6} lg={3}>
                 <Card className={classes.root}>
                   <CardActionArea>
                     <CardMedia

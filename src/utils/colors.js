@@ -1,1 +1,0 @@
-export let greenMain = '#80b541';

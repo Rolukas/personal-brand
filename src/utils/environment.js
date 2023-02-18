@@ -13,6 +13,6 @@ if(isInProduction){
 }
 
 //let API_URL = `${url}:${port}`;
-let API_URL = window.location.origin;
+let API_URL = window.location.href;
 
 export default API_URL;

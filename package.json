@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "frontend test",
   "main": "index.js",
-  "homepage": "https://rolukas.github.io/personal-brand",
+  "homepage": "https://rolukas.github.io/personal-brand/",
   "scripts": {
     "build": "react-scripts build",
     "start": "webpack-dev-server --open --mode development",

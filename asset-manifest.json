@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/personal-brand/static/js/main.21e855c9.js",
+    "static/media/App.styl": "/personal-brand/static/media/App.9ed353f9d2cc54a1eb7c.styl",
+    "index.html": "/personal-brand/index.html",
+    "main.21e855c9.js.map": "/personal-brand/static/js/main.21e855c9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.21e855c9.js"
+  ]
+}

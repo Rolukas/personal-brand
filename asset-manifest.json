@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.js": "/personal-brand/static/js/main.fc9cf98c.js",
-    "static/media/App.styl": "/personal-brand/static/media/App.9ed353f9d2cc54a1eb7c.styl",
+    "main.css": "/personal-brand/static/css/main.edb50746.css",
+    "main.js": "/personal-brand/static/js/main.b537ddf9.js",
     "index.html": "/personal-brand/index.html",
-    "main.fc9cf98c.js.map": "/personal-brand/static/js/main.fc9cf98c.js.map"
+    "main.edb50746.css.map": "/personal-brand/static/css/main.edb50746.css.map",
+    "main.b537ddf9.js.map": "/personal-brand/static/js/main.b537ddf9.js.map"
   },
   "entrypoints": [
-    "static/js/main.fc9cf98c.js"
+    "static/css/main.edb50746.css",
+    "static/js/main.b537ddf9.js"
   ]
 }

@@ -1,20 +1,18 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 // Components
-import Grid from '@material-ui/core/Grid';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MailIcon from '@material-ui/icons/Mail';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import Grid from "@material-ui/core/Grid";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import MailIcon from "@material-ui/icons/Mail";
+import TwitterIcon from "@material-ui/icons/Twitter";
 // API
-import AppContext from '../../../utils/context';
-// CSS
-import '../../../styles/components/App.styl';
+import AppContext from "../../../utils/context";
 
 function About() {
   const state = useContext(AppContext);
   console.log(state);
 
-  const mediaClick = type => {
-    let url = '';
+  const mediaClick = (type) => {
+    let url = "";
 
     if (type === 1) {
       url = `mailto:${state.data?.email}`;
@@ -34,12 +32,12 @@ function About() {
       url = state.data?.social[1].url;
     }
 
-    window.open(url, '_blank');
+    window.open(url, "_blank");
     window.open(url);
   };
 
   return (
-    <Grid container style={{ textAlign: 'center' }}>
+    <Grid container style={{ textAlign: "center" }}>
       <Grid item xs={12}>
         <img
           src={state.data?.avatar}
@@ -58,7 +56,7 @@ function About() {
         <LinkedInIcon className="media_icon" onClick={() => mediaClick(3)} />
         <img
           src={
-            'https://static.platzi.com/media/blog/unnamed-8089fc33-6322-4bd3-85de-1da032257d4b.png'
+            "https://static.platzi.com/media/blog/unnamed-8089fc33-6322-4bd3-85de-1da032257d4b.png"
           }
           className="platzi_icon"
           onClick={() => mediaClick(4)}

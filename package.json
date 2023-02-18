@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.6.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",
@@ -63,9 +63,6 @@
   },
   "jest": {
     "verbose": true,
-    "moduleNameMapper": {
-      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
-    },
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ]
